@@ -11,6 +11,89 @@
         background: #f8f9fa;
         color: #222;
         }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        }
+      header h1 {
+        font-size: 28px;
+        margin: 0;
+        color: #2e7d32;
+        }
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        }
+      .hero {
+        display: flex;
+        padding: 80px 40px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        }
+      .hero-text {
+        max-width: 500px;
+        }
+      .hero-text h2 {
+        font-size: 42px;
+        margin-bottom: 20px;
+        color: #2e7d32;
+        }
+      .hero-text p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        }
+      .cta-button {
+        padding: 15px 30px;
+        background: #2e7d32;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none; 
+        font-size: 18px;
+        font-weight: bold;
+        }
+      .hero img {
+        width: 350px;
+        border-radius: 16px;
+        }
+      .features {
+        padding: 60px 40px;
+        background: white;
+        }
+      .features h3 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+        color: #2e7d32;
+        }
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        }
+      .feature-card {
+        background: #e8f5e9;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+      .feature-card h4 {
+        margin-top: 0;
+        color: #2e7d32;
+        }
+      .footer {
+        padding: 30px;
+        text-align: center;
+        background: #2e7d32;
+        color: white;
+        margin-top: 50px;
+        }   
     </style>
   </head>
   <body>
@@ -29,7 +112,7 @@
         <p>Mit MealMatch erhälst du Rezepte, die zu deinen Vorlieben passen, Zeit sparen und dein Budget schonen. Perfekt für Studenten - gesund essen ohne Stress.</p>
         <a class="cta-button" href="#download">App kostenlos testen</a>
       </div>
-      <img src="/mnt/data/A_logo_for_a_company_or_service_named_"MealMatch"_.png" alt="App Mockup" style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+      <img src="mealmatch_logo.png" alt="MealMatch Logo">
     </section>
 
     <section class="features" id="features">
