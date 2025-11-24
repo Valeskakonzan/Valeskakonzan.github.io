@@ -34,13 +34,13 @@
         display: flex;
         padding: 80px 40px;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 40px
         }
       .hero-text {
-        max-width: 400px;
-        flex-shrink: 1;
+        flex: 1 1 50%;
+        max-width: 500px;
         text-align: left;
         }
       .hero-text h2 {
@@ -62,11 +62,11 @@
         font-weight: bold;
         }
       .hero img {
-        width: 100%;
+        flex: 1 1 40%;
         max-width: 350px;
         height: auto;
         border-radius: 16px;
-        flex-shrink: 0;
+        margin: 0 auto;
         }
       .vision-area {
         padding: 60px 40px;
@@ -86,28 +86,28 @@
         line-height: 1.6;
         }
 
-      .features {
+      .Vorteile {
         padding: 60px 40px;
         background: white;
         }
-      .features h3 {
+      .Vorteile h3 {
         text-align: center;
         font-size: 32px;
         margin-bottom: 40px;
         color: #2e7d32;
         }
-      .feature-grid {
+      .Vorteile-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 30px;
         }
-      .feature-card {
+      .Vorteile-card {
         background: #e8f5e9;
         padding: 25px;
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-      .feature-card h4 {
+      .Vorteile-card h4 {
         margin-top: 0;
         color: #2e7d32;
         }
