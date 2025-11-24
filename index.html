@@ -102,6 +102,13 @@
         font-size: 18px;
         margin-bottom: 30px;
         }
+      .calendly-embed {
+        width: 100%;
+        min-height: 700px;
+        margin: 20px auto 0;
+        border: none;
+        max-width: 800px;
+        }
       
       .footer {
         padding: 30px;
@@ -155,11 +162,14 @@
       </div>
     </section>
 
-    <section class="contact-area" ide="contact">
-      <h3>Interesse geweckt? Kontaktiere uns!</h3>
-      <p>Buche jetzt ein unverbindliches Gespräch mit uns via Calendly.</p>
-      <a class="cta-button" href="https://calendly.com/valeskakonzan/interessenten-gesprach" target="_blank">Termin buchen<a/>
-      </section>
+  <section class="contact-area" id="contact">
+    <h3>Interesse geweckt? Vereinbare einen Termin mit uns!</h3>
+    <p>Nutze den Kalender, um sofort einen Termin zu buchen.</p>
+
+    <div class="calendly-inline-widget" data-url="https://calendly.com/valeskakonzan?background_color=8ce284&primary_color=ffffff" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
+    
     <section class="footer" id="contact">
       <p>© 2025 MealMatch - Eat smart, spend smart.</p>
     </section>
