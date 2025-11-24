@@ -36,9 +36,12 @@
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 40px
         }
       .hero-text {
         max-width: 500px;
+        flex-shrink: 1;
+        text-align: left;
         }
       .hero-text h2 {
         font-size: 42px;
@@ -59,9 +62,11 @@
         font-weight: bold;
         }
       .hero img {
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         height: auto;
         border-radius: 16px;
+        flex-shrink: 0;
         }
       .features {
         padding: 60px 40px;
@@ -125,7 +130,6 @@
       <h1>MealMatch</h1>
       <nav>
         <a href="#features">Features</a>
-        <a href="#download">Download</a>
         <a href="#contact">Kontakt</a>
       </nav>
     </header>
@@ -134,7 +138,7 @@
       <div class="hero-text">
         <h2>Günstig. Lecker. Passend für dich!</h2>
         <p>Mit MealMatch erhälst du Rezepte, die zu deinen Vorlieben passen, Zeit sparen und dein Budget schonen. Perfekt für Studenten - gesund essen ohne Stress.</p>
-        <a class="cta-button" href="https://calendly.com/valeskakonzan/interessenten-gesprach">Buchen sie einen Termin!</a>
+        
       </div>
       <img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/51abf534-5f93-4498-bb37-ad548e872f11" />
         
@@ -163,8 +167,8 @@
     </section>
 
   <section class="contact-area" id="contact">
-    <h3>Interesse geweckt? Vereinbare einen Termin mit uns!</h3>
-    <p>Nutze den Kalender, um sofort einen Termin zu buchen.</p>
+    <h3>Interesse geweckt? Vereinbaren Sie einen Termin mit uns!</h3>
+    <p>Nutzen Sie den Kalender, um sofort einen Termin zu buchen.</p>
 
     <div class="calendly-inline-widget" data-url="https://calendly.com/valeskakonzan?background_color=a8ff88&primary_color=ffffff" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
