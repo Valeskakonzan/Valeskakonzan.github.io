@@ -162,11 +162,24 @@
         color: white;
         margin-top: 50px;
         }   
-      .video-container
+      
+      .video-section {
       display: flex;
       justify-content: center;
-      padding: 40px 20px;
-      background-color: #fff;
+      padding: 60px 20px;
+      background-color: #f8f9fa;
+      }
+
+      .video-section video,
+      .video-section iframe {
+        width: 90%;
+        max-width: 1000px;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        border: none;
+
       }
 
      video {
@@ -175,6 +188,7 @@
        border-radius: 12px;
        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
        }
+ 
       
     </style>
   </head>
@@ -200,7 +214,7 @@
            
     </section>
 
-    <section class="video-container">
+    <section class="video-section">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/VaO2n0E9GVM?si=ou7YlD8r6GkfxC0J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </section>
